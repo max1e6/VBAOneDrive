@@ -23,4 +23,4 @@ It is not the most sophisticated program and I hope others find it useful.
 * LocalPath - Read - String - Returns Localpath for a given URI
 * OneDriveType - Read - String - Returns "Consumer", "Commercial-Personal" or "Commercial-Sharepoint"
 
-There are a bunch of other properties in the class, but these are the most important. The others are needed to determine how to parse the URI and convert to a local path depending on which type of OneDrive is passed. They are exposed as properties mostly for informational purposes.
+There are a bunch of other properties in the class, but those listed above are the most important. The other properties in the class are used to determine how to parse the URI and convert to a local path depending on which type of OneDrive is passed. They are needed internally and are exposed as properties mostly for informational purposes.
